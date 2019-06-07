@@ -1,4 +1,4 @@
-service: lib-subscription-api
+service: aws-serverless-template
 
 provider:
   name: aws

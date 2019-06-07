@@ -1,0 +1,20 @@
+{
+  "name": "aws-serverless-template",
+  "version": "0.0.0",
+  "repository": "git@github.com:lnwu/aws-serverless-template.git",
+  "author": "lnwu <wind2729@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "sls offline start",
+    "deploy": "sls deploy"
+  },
+  "dependencies": {
+    "serverless": "^1.44.1",
+    "serverless-offline": "^5.0.1",
+    "serverless-plugin-typescript": "^1.1.7",
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.26"
+  }
+}

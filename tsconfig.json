@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "sourceMap": true,
+    "lib": [
+      "esnext"
+    ],
+    "strict": true
+  }
+}

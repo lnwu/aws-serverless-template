@@ -1,0 +1,21 @@
+service: lib-subscription-api
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  region: ap-southeast-1
+  stage: ${env:STAGE,'development'}
+  environment:
+    STAGE: ${self:provider.stage}
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
+
+plugins:
+  - serverless-offline
+  - serverless-plugin-typescript

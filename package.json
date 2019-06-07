@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "serverless": "^1.44.1",
-    "serverless-offline": "^5.0.1",
+    "serverless-offline": "^5.1.1",
     "serverless-plugin-typescript": "^1.1.7",
     "typescript": "^3.5.1"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.26"
+    "@types/aws-lambda": "^8.10.27"
   }
 }

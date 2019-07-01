@@ -652,7 +652,7 @@ bl@^1.0.0:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
 
-bluebird@^3.5.0:
+bluebird@^3.4.7, bluebird@^3.5.0:
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
   integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
@@ -3376,6 +3376,13 @@ serverless-plugin-typescript@^1.1.7:
     fs-extra "^7.0.1"
     globby "^9.2.0"
     lodash "^4.17.11"
+
+serverless-prune-plugin@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/serverless-prune-plugin/-/serverless-prune-plugin-1.3.2.tgz#eef0ecc1a43dfa8d7116a7e7fe291d792aaf59ad"
+  integrity sha512-1lvU5XxGm5BICP13UsApSoiKMTPRVP6DUryIc0QXN5zK1Cu6GT7nukd8h68Z1RsqVGdcVO40SkE3lqAgemaCiw==
+  dependencies:
+    bluebird "^3.4.7"
 
 serverless@^1.44.1:
   version "1.44.1"

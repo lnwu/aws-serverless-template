@@ -19,3 +19,9 @@ functions:
 plugins:
   - serverless-offline
   - serverless-plugin-typescript
+  - serverless-prune-plugin
+
+custom:
+  prune:
+    automatic: true
+    number: 3

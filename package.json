@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "start": "sls offline start",
-    "deploy": "sls deploy"
+    "deploy": "sls deploy",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "yarn lint --fix"
   },
   "dependencies": {
     "serverless": "^1.46.1",

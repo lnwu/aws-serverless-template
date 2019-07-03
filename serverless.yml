@@ -4,7 +4,7 @@ provider:
   name: aws
   runtime: nodejs10.x
   region: ap-southeast-1
-  stage: ${env:STAGE,'development'}
+  stage: ${env:STAGE,'local'}
   environment:
     STAGE: ${self:provider.stage}
 

@@ -7,8 +7,7 @@
   "scripts": {
     "start": "sls offline start",
     "deploy": "sls deploy",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "yarn lint --fix"
+    "lint": "eslint . --ext .ts"
   },
   "dependencies": {
     "serverless": "^1.46.1",
@@ -22,7 +21,7 @@
   },
   "lint-staged": {
     "*.ts": [
-      "yarn lint:fix",
+      "eslint . --ext .ts --fix",
       "git add"
     ]
   },

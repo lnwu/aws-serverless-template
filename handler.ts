@@ -1,7 +1,11 @@
-import { APIGatewayEvent, Handler } from "aws-lambda"
+import {
+  APIGatewayProxyEvent,
+  Handler,
+  APIGatewayProxyResult
+} from "aws-lambda"
 
-export const hello: Handler = async (event: APIGatewayEvent) => {
-  return {
+export const hello: Handler = async (event: APIGatewayProxyEvent) => {
+  const response: APIGatewayProxyResult = {
     statusCode: 200,
     body: JSON.stringify(
       {
@@ -12,4 +16,5 @@ export const hello: Handler = async (event: APIGatewayEvent) => {
       2
     )
   }
+  return response
 }

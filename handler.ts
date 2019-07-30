@@ -1,16 +1,21 @@
 import {
   APIGatewayProxyEvent,
   Handler,
-  APIGatewayProxyResult
+  APIGatewayProxyResult,
+  Context
 } from "aws-lambda"
 
-export const hello: Handler = async (event: APIGatewayProxyEvent) => {
+export const hello: Handler = async (
+  event: APIGatewayProxyEvent,
+  context: Context
+) => {
   const response: APIGatewayProxyResult = {
     statusCode: 200,
     body: JSON.stringify(
       {
         message: `Hello Serverless in ${process.env.STAGE} and ${process.env.TEST_ENV}`,
-        input: event
+        input: event,
+        context: context
       },
       null,
       2

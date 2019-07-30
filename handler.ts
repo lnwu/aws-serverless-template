@@ -9,6 +9,7 @@ export const hello: Handler = async (
   event: APIGatewayProxyEvent,
   context: Context
 ) => {
+  console.log("REQUEST ID: ", event.requestContext.requestId)
   const response: APIGatewayProxyResult = {
     statusCode: 200,
     body: JSON.stringify(

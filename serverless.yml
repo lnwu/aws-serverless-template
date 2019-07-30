@@ -7,6 +7,7 @@ provider:
   stage: ${env:STAGE,'local'}
   environment:
     STAGE: ${self:provider.stage}
+    NODE_ENV: ${env:NODE_ENV, 'development'}
 
 functions:
   hello:
@@ -23,6 +24,8 @@ plugins:
   - serverless-dotenv-plugin
 
 custom:
+  dotenv:
+    basePath: ./config/env/
   prune:
     automatic: true
     number: 3

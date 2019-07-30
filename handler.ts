@@ -9,7 +9,7 @@ export const hello: Handler = async (event: APIGatewayProxyEvent) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: `Hello Serverless in ${process.env.STAGE}`,
+        message: `Hello Serverless in ${process.env.STAGE} and ${process.env.TEST_ENV}`,
         input: event
       },
       null,

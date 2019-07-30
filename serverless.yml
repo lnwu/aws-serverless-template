@@ -20,6 +20,7 @@ plugins:
   - serverless-offline
   - serverless-plugin-typescript
   - serverless-prune-plugin
+  - serverless-dotenv-plugin
 
 custom:
   prune:

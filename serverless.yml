@@ -24,8 +24,6 @@ plugins:
   - serverless-dotenv-plugin
 
 custom:
-  dotenv:
-    basePath: ./config/env/
   prune:
     automatic: true
     number: 3

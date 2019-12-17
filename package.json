@@ -7,6 +7,7 @@
   "scripts": {
     "start": "sls offline start",
     "deploy": "sls deploy",
+    "build": "sls package",
     "lint": "eslint . --ext .ts"
   },
   "dependencies": {

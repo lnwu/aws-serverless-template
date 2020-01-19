@@ -38,6 +38,6 @@
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
     "serverless-prune-plugin": "^1.4.1",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.5"
   }
 }

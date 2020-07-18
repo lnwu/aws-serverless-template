@@ -2,7 +2,7 @@ import {
   APIGatewayProxyEvent,
   Handler,
   APIGatewayProxyResult,
-  Context
+  Context,
 } from "aws-lambda"
 
 export const hello: Handler = async (
@@ -16,11 +16,11 @@ export const hello: Handler = async (
       {
         message: `Hello Serverless in ${process.env.STAGE} and ${process.env.TEST_ENV}`,
         input: event,
-        context: context
+        context: context,
       },
       null,
       2
-    )
+    ),
   }
   return response
 }

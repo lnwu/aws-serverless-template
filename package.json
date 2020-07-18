@@ -23,8 +23,7 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint . --ext .ts --fix",
-      "git add"
+      "eslint . --ext .ts --fix"
     ]
   },
   "devDependencies": {

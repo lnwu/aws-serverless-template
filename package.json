@@ -11,7 +11,7 @@
     "lint": "eslint . --ext .ts"
   },
   "dependencies": {
-    "serverless": "^1.75.1",
+    "serverless": "^2.39.1",
     "serverless-dotenv-plugin": "^2.4.2",
     "serverless-offline": "^6.5.0",
     "serverless-plugin-typescript": "^1.1.9"

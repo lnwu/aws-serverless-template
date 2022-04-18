@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext"],
     "strict": true,
     "esModuleInterop": true
   }

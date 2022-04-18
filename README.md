@@ -5,5 +5,5 @@ Template for aws serverless
 ## Usage
 
 ``` bash
-yarn && yarn start
+pnpm install && pnpm start
 ```

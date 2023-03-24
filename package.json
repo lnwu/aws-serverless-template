@@ -24,7 +24,7 @@
     "lint-staged": "^12.3.8",
     "prettier": "^2.6.2",
     "serverless": "^3.14.0",
-    "serverless-dotenv-plugin": "^3.12.2",
+    "serverless-dotenv-plugin": "^6.0.0",
     "serverless-offline": "^8.7.0",
     "serverless-plugin-typescript": "^2.1.2",
     "serverless-prune-plugin": "^2.0.1",
